@@ -10,7 +10,7 @@ function Signup(props) {
     const setusers = props.setusers
 
 
-    
+
     const [eusername, seteusername] = useState()
     const [epassword, setupassword] = useState()
 
@@ -34,13 +34,13 @@ function Signup(props) {
                 <h1 className="text-3xl font-medium">Hey Hi🙌</h1>
                 <p>You can Signup here :)</p>
 
-                <div className="flex flex-col gap-2">
+                <div className="flex flex-col gap-2 mt-3">
                     <input onChange={handleuinput} placeholder="username" className="w-52 border-black p-1 bg-transparent border rounded-md"></input>
                     <input onChange={handleupass} placeholder="password" className="w-52 border-black p-1 bg-transparent border rounded-md"></input>
 
 
                     <button onClick={adduser} className="bg-[#FCA201] w-24 p-1 rounded-md" >Signup</button>
-                    <p>Already have an account? <Link to={'/'} className="underline">Login</Link> </p>
+                    <p>Already have an account? <Link to={'/'} className="underline text-blue-500" >Login</Link> </p>
                 </div>
 
             </div>
