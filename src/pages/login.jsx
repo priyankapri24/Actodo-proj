@@ -24,7 +24,7 @@ function Login(props) {
     function checkuser() {
         var userfound = false
         users.forEach(function (item) {
-            if (item.username == eusername && item.password == epassword) {
+            if (item.username === eusername && item.password === epassword) {
                 console.log('login successful')
                 userfound = true
                 navigate('/landing',{state:{user:eusername}})
@@ -41,7 +41,7 @@ function Login(props) {
         <div className="bg-black p-10">
             <div className="bg-[#EFEFEF] p-10 border rounded-md ">
                 <h1 className="text-3xl font-medium">Hey Hi🙌</h1>
-                {ruser ? <p>I help you manage your activities after you login :)</p> : <p className="text-red-600" >please Signup Before Login !!</p>}
+                {ruser ? <p className="mt-2">I help you manage your activities after you login :)</p> : <p className="text-red-600" >please Signup Before Login !!</p>}
 
 
                 <div className="flex flex-col gap-2 mt-3 ">

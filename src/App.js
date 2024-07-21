@@ -2,7 +2,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Signup from "./pages/signup";
 import Login from "./pages/login";
 import { useState } from "react";
-
 import Landing from "./pages/landing";
 
 function App() {
