@@ -36,7 +36,7 @@ function Signup(props) {
 
                 <div className="flex flex-col gap-2 mt-3">
                     <input onChange={handleuinput} placeholder="username" className="w-52 border-black p-1 bg-transparent border rounded-md"></input>
-                    <input onChange={handleupass} placeholder="password" className="w-52 border-black p-1 bg-transparent border rounded-md"></input>
+                    <input onChange={handleupass} type="password" placeholder="password" className="w-52 border-black p-1 bg-transparent border rounded-md"></input>
 
 
                     <button onClick={adduser} className="bg-[#FCA201] w-24 p-1 rounded-md mt-1" >Signup</button>
